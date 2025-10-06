@@ -1,0 +1,44 @@
+<style>
+    body {
+        font-family: 'Sarabun', sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    .app-card {
+        border: none;
+        border-radius: 0.75rem;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+
+    .app-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .app-card .card-title {
+        color: #343a40;
+    }
+
+    .btn {
+        font-weight: 500;
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+    }
+    
+    /* [NEW] Style for the settings button */
+    .settings-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    /* [NEW] Style for toast notifications on settings page */
+    #toast-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
+
+</style>
